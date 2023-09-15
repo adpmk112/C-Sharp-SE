@@ -1,0 +1,17 @@
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\obj\Debug\netcoreapp3.1\BasicConsoleTest.csproj.AssemblyReference.cache
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\obj\Debug\netcoreapp3.1\BasicConsoleTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\obj\Debug\netcoreapp3.1\BasicConsoleTest.AssemblyInfoInputs.cache
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\obj\Debug\netcoreapp3.1\BasicConsoleTest.AssemblyInfo.cs
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\obj\Debug\netcoreapp3.1\BasicConsoleTest.csproj.CoreCompileInputs.cache
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\bin\Debug\netcoreapp3.1\BasicConsoleTest.exe
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\bin\Debug\netcoreapp3.1\BasicConsoleTest.deps.json
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\bin\Debug\netcoreapp3.1\BasicConsoleTest.runtimeconfig.json
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\bin\Debug\netcoreapp3.1\BasicConsoleTest.runtimeconfig.dev.json
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\bin\Debug\netcoreapp3.1\BasicConsoleTest.dll
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\bin\Debug\netcoreapp3.1\BasicConsoleTest.pdb
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\bin\Debug\netcoreapp3.1\PhoneNumbers.dll
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\obj\Debug\netcoreapp3.1\BasicConsoleTest.csproj.CopyComplete
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\obj\Debug\netcoreapp3.1\BasicConsoleTest.dll
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\obj\Debug\netcoreapp3.1\BasicConsoleTest.pdb
+D:\C-sharpConsole\BasicConsoleTest\BasicConsoleTest\obj\Debug\netcoreapp3.1\BasicConsoleTest.genruntimeconfig.cache
