@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BasicConsoleTest.Linq
+namespace BasicConsoleTest.Models
 {
     public class MerchantModel
     {

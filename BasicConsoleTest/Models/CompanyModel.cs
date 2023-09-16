@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BasicConsoleTest.ObjectKeyword
+namespace BasicConsoleTest.Models
 {
     class CompanyModel
     {

@@ -1,7 +1,9 @@
 ﻿using BasicConsoleTest.DynamicKeyword;
 using BasicConsoleTest.Linq;
+using BasicConsoleTest.Models;
 using BasicConsoleTest.ObjectKeyword;
 using BasicConsoleTest.PhoneNumberValidation;
+using BasicConsoleTest.Reflection;
 using BasicConsoleTest.StaticKeyword;
 using System;
 using System.Collections.Generic;
@@ -33,50 +35,50 @@ namespace BasicConsoleTest
             #endregion
 
             #region Static Keyword Test
-            //Person person = new Person();
-            //person.pname = "PMK";
+            Person person = new Person();
+            person.pname = "PMK";
 
-            //Console.WriteLine("Instance name --> " + person.pname);
+            Console.WriteLine("Instance name --> " + person.pname);
 
-            //string classLevelName = Person.name;
+            string classLevelName = Person.name;
 
-            //Console.WriteLine("ClassLevelName --> " + classLevelName); 
+            Console.WriteLine("ClassLevelName --> " + classLevelName);
             #endregion
 
             #region Object Keyword Test
-            //ObjectTest objectTest = new ObjectTest();
+            ObjectTest objectTest = new ObjectTest();
 
-            //MerchantModel merchantModel = new MerchantModel();
-            //merchantModel.id = 1;
-            //merchantModel.name = "Cola";
+            MerchantModel merchantModel = new MerchantModel();
+            merchantModel.id = 1;
+            merchantModel.name = "Cola";
 
-            //// need typecast to get field data from object
-            //// can't do like this --> objectTest.ReturnObject(merchantModel).name
-            //// cannot type cast if not merchantModel as it is stil merchantModel 
+            // need typecast to get field data from object
+            // can't do like this --> objectTest.ReturnObject(merchantModel).name
+            // cannot type cast if not merchantModel as it is stil merchantModel 
 
-            //MerchantModel outMerchant = (MerchantModel)objectTest.ReturnObject(merchantModel);
-            //Console.WriteLine("Merchant name --> " +outMerchant.name);
+            MerchantModel outMerchant = (MerchantModel)objectTest.ReturnObject(merchantModel);
+            Console.WriteLine("Merchant name --> " + outMerchant.name);
 
-            ////in my sight, object keyword is good to use for primitive type input and to carry unpredictable object
-            //int number = 10;
-            //string line = "Hello World";
-            //decimal deciNum = 1.13m;
-            //char word = 'A';
+            //in my sight, object keyword is good to use for primitive type input and to carry unpredictable object
+            int number = 10;
+            string line = "Hello World";
+            decimal deciNum = 1.13m;
+            char word = 'A';
 
-            //Console.WriteLine(objectTest.ReturnObject(number));
-            //Console.WriteLine(objectTest.ReturnObject(line));
-            //Console.WriteLine(objectTest.ReturnObject(deciNum));
-            //Console.WriteLine(objectTest.ReturnObject(word));
+            Console.WriteLine(objectTest.ReturnObject(number));
+            Console.WriteLine(objectTest.ReturnObject(line));
+            Console.WriteLine(objectTest.ReturnObject(deciNum));
+            Console.WriteLine(objectTest.ReturnObject(word));
             #endregion
 
             #region LinQ Test
             //LinqTest linqTest = new LinqTest();
 
-            //List<Linq.MerchantModel> list = linqTest.DataEntry();
+            //List<MerchantModel> list = linqTest.DataEntry();
 
             //Console.WriteLine("DataList");
 
-            //foreach (Linq.MerchantModel model in list)
+            //foreach (MerchantModel model in list)
             //{
             //    Console.WriteLine("Model id --> " + model.id + "  Model Name --> " + model.name +
             //                      "  Model Batch --> " + model.batch);
@@ -104,7 +106,18 @@ namespace BasicConsoleTest
             //    Console.WriteLine("Batch --> " + batch.batch);
             //}
 
-            //Console.WriteLine("-----------------------------------------------"); 
+            //Console.WriteLine("-----------------------------------------------");
+            #endregion
+
+            #region Reflection Test
+            //AlbumModel albumDto = new AlbumModel();
+            //albumDto.id = 6;
+            //albumDto.name = "PopStar";
+
+            //ReflectionTest reflectionTest = new ReflectionTest();
+
+            //string result = reflectionTest.GetResult(albumDto);
+            //Console.WriteLine(result);
             #endregion
         }
     }

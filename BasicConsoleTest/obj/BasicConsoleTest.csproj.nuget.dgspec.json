@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C-sharpConsole\\BasicConsoleTest\\BasicConsoleTest\\BasicConsoleTest.csproj": {}
+    "C:\\Users\\DELL\\source\\repos\\C-SharpSE\\BasicConsoleTest\\BasicConsoleTest.csproj": {}
   },
   "projects": {
-    "D:\\C-sharpConsole\\BasicConsoleTest\\BasicConsoleTest\\BasicConsoleTest.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\C-SharpSE\\BasicConsoleTest\\BasicConsoleTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C-sharpConsole\\BasicConsoleTest\\BasicConsoleTest\\BasicConsoleTest.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\C-SharpSE\\BasicConsoleTest\\BasicConsoleTest.csproj",
         "projectName": "BasicConsoleTest",
-        "projectPath": "D:\\C-sharpConsole\\BasicConsoleTest\\BasicConsoleTest\\BasicConsoleTest.csproj",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\C-SharpSE\\BasicConsoleTest\\BasicConsoleTest.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\C-sharpConsole\\BasicConsoleTest\\BasicConsoleTest\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\C-SharpSE\\BasicConsoleTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

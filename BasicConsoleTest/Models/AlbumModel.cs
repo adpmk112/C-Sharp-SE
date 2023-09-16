@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BasicConsoleTest.ObjectKeyword
+namespace BasicConsoleTest.Models
 {
-    class MerchantModel
+    public class AlbumModel
     {
         public long id { get; set; }
         public string name { get; set; }
