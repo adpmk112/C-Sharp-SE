@@ -1,4 +1,5 @@
-﻿using BasicConsoleTest.DynamicKeyword;
+﻿using BasicConsoleTest.DateTimeTest;
+using BasicConsoleTest.DynamicKeyword;
 using BasicConsoleTest.Linq;
 using BasicConsoleTest.Models;
 using BasicConsoleTest.ObjectKeyword;
@@ -35,44 +36,44 @@ namespace BasicConsoleTest
             #endregion
 
             #region Static Keyword Test
-            Person person = new Person();
-            person.pname = "PMK";
+            //Person person = new Person();
+            //person.pname = "PMK";
 
-            Console.WriteLine("Instance name --> " + person.pname);
+            //Console.WriteLine("Instance name --> " + person.pname);
 
-            string classLevelName = Person.name;
+            //string classLevelName = Person.name;
 
-            Console.WriteLine("ClassLevelName --> " + classLevelName);
+            //Console.WriteLine("ClassLevelName --> " + classLevelName);
             #endregion
 
             #region Object Keyword Test
-            ObjectTest objectTest = new ObjectTest();
+            //ObjectTest objectTest = new ObjectTest();
 
-            MerchantModel merchantModel = new MerchantModel();
-            merchantModel.id = 1;
-            merchantModel.name = "Cola";
+            //MerchantModel merchantModel = new MerchantModel();
+            //merchantModel.id = 1;
+            //merchantModel.name = "Cola";
 
-            // need typecast to get field data from object
-            // can't do like this --> objectTest.ReturnObject(merchantModel).name
-            // cannot type cast if not merchantModel as it is stil merchantModel 
+            //// need typecast to get field data from object
+            //// can't do like this --> objectTest.ReturnObject(merchantModel).name
+            //// cannot type cast if not merchantModel as it is stil merchantModel 
 
-            MerchantModel outMerchant = (MerchantModel)objectTest.ReturnObject(merchantModel);
-            Console.WriteLine("Merchant name --> " + outMerchant.name);
+            //MerchantModel outMerchant = (MerchantModel)objectTest.ReturnObject(merchantModel);
+            //Console.WriteLine("Merchant name --> " + outMerchant.name);
 
-            //in my sight, object keyword is good to use for primitive type input and to carry unpredictable object
-            int number = 10;
-            string line = "Hello World";
-            decimal deciNum = 1.13m;
-            char word = 'A';
+            ////in my sight, object keyword is good to use for primitive type input and to carry unpredictable object
+            //int number = 10;
+            //string line = "Hello World";
+            //decimal deciNum = 1.13m;
+            //char word = 'A';
 
-            Console.WriteLine(objectTest.ReturnObject(number));
-            Console.WriteLine(objectTest.ReturnObject(line));
-            Console.WriteLine(objectTest.ReturnObject(deciNum));
-            Console.WriteLine(objectTest.ReturnObject(word));
+            //Console.WriteLine(objectTest.ReturnObject(number));
+            //Console.WriteLine(objectTest.ReturnObject(line));
+            //Console.WriteLine(objectTest.ReturnObject(deciNum));
+            //Console.WriteLine(objectTest.ReturnObject(word));
             #endregion
 
             #region LinQ Test
-            //LinqTest linqTest = new LinqTest();
+            //LinqSelectDistinctTest linqTest = new LinqSelectDistinctTest();
 
             //List<MerchantModel> list = linqTest.DataEntry();
 
@@ -119,6 +120,22 @@ namespace BasicConsoleTest
             //string result = reflectionTest.GetResult(albumDto);
             //Console.WriteLine(result);
             #endregion
+
+            #region GetDateBetweenTest
+            //DateTime startDate = DateTime.Parse("2023-09-1 00:00:00.000");
+            //DateTime endDate = DateTime.Parse("2023-09-8 00:00:00.000");
+
+            //GetBetweenDateTest dateTest = new GetBetweenDateTest();
+            //List<DateTime> datesBetween = new List<DateTime>();
+
+            //datesBetween = dateTest.GetDatesBetween(startDate, endDate);
+
+            //foreach (DateTime date in datesBetween)
+            //{
+            //    Console.WriteLine(date.ToString("yyyyy-MM-dd HH:mm:ss.fff"));
+            //} 
+            #endregion
+
         }
     }
 }

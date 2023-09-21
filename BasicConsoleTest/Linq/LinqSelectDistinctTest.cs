@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BasicConsoleTest.Linq
 {
-    public class LinqTest
+    public class LinqSelectDistinctTest
     {
         public List<dynamic> GetUniqueMerchantIdAndName(List<MerchantModel> list)
         {
