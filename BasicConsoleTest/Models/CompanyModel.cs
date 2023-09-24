@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BasicConsoleTest.Models
 {
-    class CompanyModel
+    public class CompanyModel
     {
         public long id { get; set; }
         public string name { get; set; }

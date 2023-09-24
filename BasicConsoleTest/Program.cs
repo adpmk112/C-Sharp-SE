@@ -122,18 +122,35 @@ namespace BasicConsoleTest
             #endregion
 
             #region GetDateBetweenTest
+            //DateTime startDate = DateTime.Parse("2023-09-1 00:00:00.000");
+            //DateTime endDate = DateTime.Parse("2023-09-8 00:00:00.000");
+
+            //GetDateTest dateTest = new GetDateTest();
+            //List<DateTime> datesBetween = new List<DateTime>();
+
+            //datesBetween = dateTest.GetDatesBetween(startDate, endDate);
+
+            //foreach (DateTime date in datesBetween)
+            //{
+            //    Console.WriteLine(date.ToString("yyyyy-MM-dd HH:mm:ss.fff"));
+            //}
+            #endregion
+
+            #region GetAllDateTest
+
             DateTime startDate = DateTime.Parse("2023-09-1 00:00:00.000");
             DateTime endDate = DateTime.Parse("2023-09-8 00:00:00.000");
 
             GetDateTest dateTest = new GetDateTest();
-            List<DateTime> datesBetween = new List<DateTime>();
+            List<DateTime> dateList = new List<DateTime>();
 
-            datesBetween = dateTest.GetDatesBetween(startDate, endDate);
+            dateList = dateTest.GetAllDates(startDate, endDate);
 
-            foreach (DateTime date in datesBetween)
+            foreach (DateTime date in dateList)
             {
                 Console.WriteLine(date.ToString("yyyyy-MM-dd HH:mm:ss.fff"));
             }
+
             #endregion
 
         }

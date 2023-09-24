@@ -21,5 +21,19 @@ namespace BasicConsoleTest.DateTimeTest
 
             return datesBetween;
         }
+
+        public List<DateTime> GetAllDates(DateTime startDate, DateTime endDate)
+        {
+            List<DateTime> dateList = new List<DateTime>();
+
+            while(startDate <= endDate)
+            {
+                dateList.Add(startDate);
+
+                startDate = startDate.AddDays(1);
+            }
+
+            return dateList;
+        }
     }
 }
