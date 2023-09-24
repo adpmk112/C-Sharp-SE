@@ -6,14 +6,14 @@ namespace BasicConsoleTest.StaticKeyword
 {
     public class Person 
     {
-        public static string name = "A Person";
+        public static string Name = "A Person";
 
-        public string pname { get; set; }
+        public string Pname { get; set; }
 
         static Person()
         {
             Console.WriteLine("Static Block Working");
-            Console.WriteLine(name);
+            Console.WriteLine(Name);
         }
 
         public Person()
