@@ -16,6 +16,49 @@ namespace BasicConsoleTest
     {
         static void Main(string[] args)
         {
+            #region GetAllDateTest
+
+            //DateTime startDate = DateTime.Parse("2023-09-1 00:00:00.000");
+            //DateTime endDate = DateTime.Parse("2023-09-8 00:00:00.000");
+
+            //GetDateTest dateTest = new GetDateTest();
+            //List<DateTime> dateList = new List<DateTime>();
+
+            //dateList = dateTest.GetAllDates(startDate, endDate);
+
+            //foreach (DateTime date in dateList)
+            //{
+            //    Console.WriteLine(date.ToString("yyyyy-MM-dd HH:mm:ss.fff"));
+            //}
+
+            #endregion
+
+            #region GetDateBetweenTest
+            //DateTime startDate = DateTime.Parse("2023-09-1 00:00:00.000");
+            //DateTime endDate = DateTime.Parse("2023-09-8 00:00:00.000");
+
+            //GetDateTest dateTest = new GetDateTest();
+            //List<DateTime> datesBetween = new List<DateTime>();
+
+            //datesBetween = dateTest.GetDatesBetween(startDate, endDate);
+
+            //foreach (DateTime date in datesBetween)
+            //{
+            //    Console.WriteLine(date.ToString("yyyyy-MM-dd HH:mm:ss.fff"));
+            //}
+            #endregion
+
+            #region Reflection Test
+            //AlbumModel albumDto = new AlbumModel();
+            //albumDto.id = 6;
+            //albumDto.name = "PopStar";
+
+            //ReflectionTest reflectionTest = new ReflectionTest();
+
+            //string result = reflectionTest.GetResult(albumDto);
+            //Console.WriteLine(result);
+            #endregion
+
             #region PhoneValidation Test
 
             //PhoneValidation phoneValidation = new PhoneValidation();
@@ -24,6 +67,44 @@ namespace BasicConsoleTest
             //string countryCode = "MM";
 
             //phoneValidation.Validate(phone, countryCode); 
+            #endregion
+
+            #region LinQ Test
+            //LinqSelectDistinctTest linqTest = new LinqSelectDistinctTest();
+
+            //List<MerchantModel> list = linqTest.DataEntry();
+
+            //Console.WriteLine("DataList");
+
+            //foreach (MerchantModel model in list)
+            //{
+            //    Console.WriteLine("Model id --> " + model.id + "  Model Name --> " + model.name +
+            //                      "  Model Batch --> " + model.batch);
+            //}
+
+            //Console.WriteLine("-----------------------------------------------");
+
+            //Console.WriteLine("Unique Merchant");
+
+            //List<dynamic> uniqueMerchant = linqTest.GetUniqueMerchantIdAndName(list);
+
+            //foreach (dynamic merchant in uniqueMerchant)
+            //{
+            //    Console.WriteLine("MerchantId --> " + merchant.merchantId + "  MerchantName -->" + merchant.merchantName);
+            //}
+
+            //Console.WriteLine("-----------------------------------------------");
+
+            //Console.WriteLine("Unique Batch");
+
+            //List<dynamic> uniqueBatch = linqTest.GetUniqueBatch(list);
+
+            //foreach (dynamic batch in uniqueBatch)
+            //{
+            //    Console.WriteLine("Batch --> " + batch.batch);
+            //}
+
+            //Console.WriteLine("-----------------------------------------------");
             #endregion
 
             #region Dynamic Keyword Test
@@ -72,86 +153,13 @@ namespace BasicConsoleTest
             //Console.WriteLine(objectTest.ReturnObject(word));
             #endregion
 
-            #region LinQ Test
-            //LinqSelectDistinctTest linqTest = new LinqSelectDistinctTest();
 
-            //List<MerchantModel> list = linqTest.DataEntry();
 
-            //Console.WriteLine("DataList");
 
-            //foreach (MerchantModel model in list)
-            //{
-            //    Console.WriteLine("Model id --> " + model.id + "  Model Name --> " + model.name +
-            //                      "  Model Batch --> " + model.batch);
-            //}
 
-            //Console.WriteLine("-----------------------------------------------");
 
-            //Console.WriteLine("Unique Merchant");
 
-            //List<dynamic> uniqueMerchant = linqTest.GetUniqueMerchantIdAndName(list);
 
-            //foreach (dynamic merchant in uniqueMerchant)
-            //{
-            //    Console.WriteLine("MerchantId --> " + merchant.merchantId + "  MerchantName -->" + merchant.merchantName);
-            //}
-
-            //Console.WriteLine("-----------------------------------------------");
-
-            //Console.WriteLine("Unique Batch");
-
-            //List<dynamic> uniqueBatch = linqTest.GetUniqueBatch(list);
-
-            //foreach (dynamic batch in uniqueBatch)
-            //{
-            //    Console.WriteLine("Batch --> " + batch.batch);
-            //}
-
-            //Console.WriteLine("-----------------------------------------------");
-            #endregion
-
-            #region Reflection Test
-            //AlbumModel albumDto = new AlbumModel();
-            //albumDto.id = 6;
-            //albumDto.name = "PopStar";
-
-            //ReflectionTest reflectionTest = new ReflectionTest();
-
-            //string result = reflectionTest.GetResult(albumDto);
-            //Console.WriteLine(result);
-            #endregion
-
-            #region GetDateBetweenTest
-            //DateTime startDate = DateTime.Parse("2023-09-1 00:00:00.000");
-            //DateTime endDate = DateTime.Parse("2023-09-8 00:00:00.000");
-
-            //GetDateTest dateTest = new GetDateTest();
-            //List<DateTime> datesBetween = new List<DateTime>();
-
-            //datesBetween = dateTest.GetDatesBetween(startDate, endDate);
-
-            //foreach (DateTime date in datesBetween)
-            //{
-            //    Console.WriteLine(date.ToString("yyyyy-MM-dd HH:mm:ss.fff"));
-            //}
-            #endregion
-
-            #region GetAllDateTest
-
-            DateTime startDate = DateTime.Parse("2023-09-1 00:00:00.000");
-            DateTime endDate = DateTime.Parse("2023-09-8 00:00:00.000");
-
-            GetDateTest dateTest = new GetDateTest();
-            List<DateTime> dateList = new List<DateTime>();
-
-            dateList = dateTest.GetAllDates(startDate, endDate);
-
-            foreach (DateTime date in dateList)
-            {
-                Console.WriteLine(date.ToString("yyyyy-MM-dd HH:mm:ss.fff"));
-            }
-
-            #endregion
 
         }
     }
