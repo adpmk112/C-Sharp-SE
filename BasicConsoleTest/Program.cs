@@ -7,7 +7,6 @@ using BasicConsoleTest.Models;
 using BasicConsoleTest.ObjectKeyword;
 using BasicConsoleTest.PhoneNumberValidation;
 using BasicConsoleTest.Reflection;
-using BasicConsoleTest.Resources;
 using BasicConsoleTest.StaticKeyword;
 using System;
 using System.Collections.Generic;
