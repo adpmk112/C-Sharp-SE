@@ -6,9 +6,9 @@ namespace BasicConsoleTest.Models
 {
     public class MerchantModel
     {
-        public long id { get; set; }
-        public string name { get; set; }
-        public string batch { get; set; }
-        public long albumId { get; set; }
+        public long Id { get; set; }
+        public string Name { get; set; }
+        public string Batch { get; set; }
+        public long AlbumId { get; set; }
     }
 }

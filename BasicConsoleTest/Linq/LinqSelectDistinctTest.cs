@@ -12,7 +12,7 @@ namespace BasicConsoleTest.Linq
         public List<dynamic> GetUniqueMerchantIdAndName(List<MerchantModel> list)
         {
             List<dynamic> uniqueMerchant = list
-                .Select(x => new { x.id, x.name })
+                .Select(x => new { x.Id, x.Name })
                 .Distinct()
                 .Select(x => GetDynamicMerchant(x.id, x.name))
                 .ToList();
@@ -23,7 +23,7 @@ namespace BasicConsoleTest.Linq
         public List<dynamic> GetUniqueBatch(List<MerchantModel> list)
         {
             List<dynamic> uniqueBatch = list
-               .Select(x => x.batch)
+               .Select(x => x.Batch)
                .Distinct()
                .Select(x => GetDynamicBatch(x))
                .ToList();
@@ -51,31 +51,31 @@ namespace BasicConsoleTest.Linq
             List<MerchantModel> merchantList = new List<MerchantModel>();
             MerchantModel merchantModel = new MerchantModel();
 
-            merchantModel.id = 1;
-            merchantModel.name = "Cola";
-            merchantModel.batch = "Summer Party";
-            merchantModel.albumId = 1;
+            merchantModel.Id = 1;
+            merchantModel.Name = "Cola";
+            merchantModel.Batch = "Summer Party";
+            merchantModel.AlbumId = 1;
             merchantList.Add(merchantModel);
 
             MerchantModel merchantModel2 = new MerchantModel();
-            merchantModel2.id = 2;
-            merchantModel2.name = "Pepsi";
-            merchantModel2.batch = "Spring Party";
-            merchantModel2.albumId = 1;
+            merchantModel2.Id = 2;
+            merchantModel2.Name = "Pepsi";
+            merchantModel2.Batch = "Spring Party";
+            merchantModel2.AlbumId = 1;
             merchantList.Add(merchantModel2);
 
             MerchantModel merchantModel3 = new MerchantModel();
-            merchantModel3.id = 1;
-            merchantModel3.name = "Cola";
-            merchantModel3.batch = "Open Collab";
-            merchantModel3.albumId = 1;
+            merchantModel3.Id = 1;
+            merchantModel3.Name = "Cola";
+            merchantModel3.Batch = "Open Collab";
+            merchantModel3.AlbumId = 1;
             merchantList.Add(merchantModel3);
 
             MerchantModel merchantModel4 = new MerchantModel();
-            merchantModel4.id = 2;
-            merchantModel4.name = "Pepsi";
-            merchantModel4.batch = "Summer Party";
-            merchantModel4.albumId = 1;
+            merchantModel4.Id = 2;
+            merchantModel4.Name = "Pepsi";
+            merchantModel4.Batch = "Summer Party";
+            merchantModel4.AlbumId = 1;
             merchantList.Add(merchantModel4);
 
             return merchantList;
