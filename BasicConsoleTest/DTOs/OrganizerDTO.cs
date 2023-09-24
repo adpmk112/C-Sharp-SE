@@ -4,9 +4,8 @@ using System.Text;
 
 namespace BasicConsoleTest.DTOs
 {
-    public class PersonInfoDTO
+    public class OrganizerDTO : PersonInfoDTO
     {
-        public long Id { get; set; }
-        public string Name { get; set; }
+
     }
 }

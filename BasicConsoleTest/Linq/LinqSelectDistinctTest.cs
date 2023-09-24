@@ -14,7 +14,7 @@ namespace BasicConsoleTest.Linq
             List<dynamic> uniqueMerchant = list
                 .Select(x => new { x.Id, x.Name })
                 .Distinct()
-                .Select(x => GetDynamicMerchant(x.id, x.name))
+                .Select(x => GetDynamicMerchant(x.Id, x.Name))
                 .ToList();
 
             return uniqueMerchant;

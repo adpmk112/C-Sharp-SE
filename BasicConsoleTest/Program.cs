@@ -1,10 +1,13 @@
-﻿using BasicConsoleTest.DateTimeTest;
+﻿using BasicConsoleTest.ChangeModel;
+using BasicConsoleTest.DateTimeTest;
+using BasicConsoleTest.DTOs;
 using BasicConsoleTest.DynamicKeyword;
 using BasicConsoleTest.Linq;
 using BasicConsoleTest.Models;
 using BasicConsoleTest.ObjectKeyword;
 using BasicConsoleTest.PhoneNumberValidation;
 using BasicConsoleTest.Reflection;
+using BasicConsoleTest.Resources;
 using BasicConsoleTest.StaticKeyword;
 using System;
 using System.Collections.Generic;
@@ -16,7 +19,42 @@ namespace BasicConsoleTest
     {
         static void Main(string[] args)
         {
+            string test = SqlResource.Test;
 
+            #region ChangeModelTest
+
+            //OrganizerDTO organizerDTO = new OrganizerDTO();
+            //organizerDTO.Id = 1;
+            //organizerDTO.Name = "Table";
+            //organizerDTO.PhoneNumber = "09262634123";
+            //organizerDTO.Email = "Table@gmail.com";
+
+            //ArtistDTO artistDTO = new ArtistDTO();
+            //artistDTO.Id = 1;
+            //artistDTO.Name = "Yair Yint Aung";
+            //artistDTO.PhoneNumber = "09786321123";
+            //artistDTO.Email = "YYA@gmail.com";
+
+            //OrganizerRespModel organizerResp = new OrganizerRespModel();
+            //ArtistRespModel artistResp = new ArtistRespModel();
+
+            //organizerResp = organizerDTO.Change<OrganizerDTO,OrganizerRespModel>();
+
+            //artistResp = artistDTO.Change<ArtistDTO, ArtistRespModel>();
+
+            //Console.WriteLine("Organizer");
+            //Console.WriteLine($"Name: {organizerResp.Name}");
+            //Console.WriteLine($"PhoneNumber: {organizerResp.PhoneNumber}");
+            //Console.WriteLine($"Email: {organizerResp.Email}");
+            //Console.WriteLine("\n");
+
+            //Console.WriteLine("Artist");
+            //Console.WriteLine($"Name: {artistResp.Name}");
+            //Console.WriteLine($"PhoneNumber: {artistResp.PhoneNumber}");
+            //Console.WriteLine($"Email: {artistResp.Email}");
+            //Console.WriteLine("\n");
+
+            #endregion
 
             #region GetAllDateTest
 
