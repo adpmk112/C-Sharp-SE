@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BasicConsoleTest.DateTimeTest
 {
-    public class GetBetweenDateTest
+    public class GetDateTest
     {
         public List<DateTime> GetDatesBetween(DateTime startDate, DateTime endDate)
         {
