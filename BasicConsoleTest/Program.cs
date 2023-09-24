@@ -19,8 +19,6 @@ namespace BasicConsoleTest
     {
         static void Main(string[] args)
         {
-            string test = SqlResource.Test;
-
             #region ChangeModelTest
 
             //OrganizerDTO organizerDTO = new OrganizerDTO();
